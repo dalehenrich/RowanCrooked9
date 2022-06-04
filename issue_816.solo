@@ -1,0 +1,49 @@
+#!/usr/bin/env superdoit_solo
+#options
+#{
+#	SuperDoitOptionalOptionWithNoArg long: 'noarg'.
+#	SuperDoitOptionalOptionWithNoArg long: 'noarg' short: 'n'.
+#
+#	SuperDoitOptionalOptionWithRequiredArg long: 'optional'.
+#	SuperDoitOptionalOptionWithRequiredArg long: 'optional' default: 'default'.
+#	SuperDoitOptionalOptionWithRequiredArg long: 'optional' short: 'o'.
+#	SuperDoitOptionalOptionWithRequiredArg long: 'optional' short: 'o' default: 'default'.
+#
+#	SuperDoitRequiredOptionWithRequiredArg long: 'required'.
+#	SuperDoitRequiredOptionWithRequiredArg long: 'required' short: 'r'.
+#}
+#
+#%
+usage
+-----
+USAGE $basename [--help | -h] [--debug | -D]
+
+DESCRIPTION
+  <put your description here>
+
+OPTIONS
+  -h, --help                 display usage message
+  -D, --debug                bring up topaz debugger in the event of a script error
+
+EXAMPLES
+  $basename --help
+  $basename -D
+  $basename  
+-----
+%
+doit
+	| symDict specUrl |
+	symDict := SymbolDictionary new 
+		name: #RowanSample9_1;
+		yourself.
+	GsCurrentSession currentSession symbolList addLast: symDict.
+	"install from bootstrap .gs file"
+	GsFileIn fromServerPath: (self dirname / 'spec_0002.gs') pathString.
+	"adopt project"
+	specUrl := 'file:', (self dirname / 'rowan' / 'specs' / 'spec_0001.ston' ) pathString.
+	Rowan projectTools adopt
+		adoptProjectFromUrl: specUrl
+		diskUrl: 'file:', self dirname pathString
+		projectsHome: self dirname parent.
+	^ self noResult
+%
