@@ -4,7 +4,20 @@ usage
 USAGE $basename [--help | -h] [--debug | -D]
 
 DESCRIPTION
-  Reproduce https://github.com/GemTalk/Rowan/issues/816
+  Reproduce https://github.com/GemTalk/Rowan/issues/816.
+
+  GemStone build:
+  ---------------
+    3.7.0 Build: 2022-05-18T11:07:10-07:00 9dc8882010cc2c60dbf82e05711cd323f08f4bbc
+    Wed May 18 11:08:03 2022 dhenrich private build (branch 3.7.0)
+
+  externals_st projects:
+  ---------------------
+    Rowan                dbc934bbba404b52f286011dbc0e3a502ae6ed60    masterV2.3      Rowan               
+    RowanClientServices  398f9406be90b8e2a4e8827d78869a9bdcc7e854    masterV2.2      RowanClientServices 
+    GsDevKit_upgrade     ab9ad5e3fa6a1e90ca143303a869cbc3ce0d2847    master          GsDevKit_upgrade    
+    superDoit            d7d7a36d4cdd7a17f357c04477ab15abbfa1931d    v2              superDoit           
+    GsTestStats          39f8e9426b7efb6048223859b5196675d31775e6    v1              GsTestStats         
 
 OPTIONS
   -h, --help                 display usage message
