@@ -1,25 +1,10 @@
 #!/usr/bin/env superdoit_solo
-#options
-#{
-#	SuperDoitOptionalOptionWithNoArg long: 'noarg'.
-#	SuperDoitOptionalOptionWithNoArg long: 'noarg' short: 'n'.
-#
-#	SuperDoitOptionalOptionWithRequiredArg long: 'optional'.
-#	SuperDoitOptionalOptionWithRequiredArg long: 'optional' default: 'default'.
-#	SuperDoitOptionalOptionWithRequiredArg long: 'optional' short: 'o'.
-#	SuperDoitOptionalOptionWithRequiredArg long: 'optional' short: 'o' default: 'default'.
-#
-#	SuperDoitRequiredOptionWithRequiredArg long: 'required'.
-#	SuperDoitRequiredOptionWithRequiredArg long: 'required' short: 'r'.
-#}
-#
-#%
 usage
 -----
 USAGE $basename [--help | -h] [--debug | -D]
 
 DESCRIPTION
-  <put your description here>
+  Reproduce https://github.com/GemTalk/Rowan/issues/816
 
 OPTIONS
   -h, --help                 display usage message
@@ -45,5 +30,5 @@ doit
 		adoptProjectFromUrl: specUrl
 		diskUrl: 'file:', self dirname pathString
 		projectsHome: self dirname parent.
-	^ self noResult
+	self error: 'looks like bug is fixed'
 %
