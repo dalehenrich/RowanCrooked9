@@ -1,6 +1,8 @@
 # RowanCrooked9
 
-Manually constructed test cases for [GemTalk/Rowan project](https://github.com/GemTalk/Rowan).
+Collection of manually constructed test cases for [GemTalk/Rowan project](https://github.com/GemTalk/Rowan). 
+
+These are disk structure inconsistencies that have been introduced by mistakes during `git merge` or by manual manipulation of the files and directories.
 
 ## Summary of Crooked Specs
 
