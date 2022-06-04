@@ -7,8 +7,9 @@ These are disk structure inconsistencies that have been introduced by mistakes d
 ## Summary of Crooked Specs
 
 ### [spec_0001](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0001)
+Test case for GemTalk/Rowan#828.
 
-Manually modified package structure in [RowanSample9:spec_0014](https://github.com/dalehenrich/RowanSample9/tree/spec_0014) to reproduce GemTalk/Rowan#828
+Manually modified package structure from [RowanSample9:spec_0014](https://github.com/dalehenrich/RowanSample9/tree/spec_0014) to duplicate an inconsistency introduced during a code merge. 
 
 ### [spec_0002](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0002)
 Test case for GemTalk/Rowan#816.
