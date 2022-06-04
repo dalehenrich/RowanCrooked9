@@ -1,4 +1,6 @@
-# RowanCrooked9 - spec_0001
+# RowanCrooked9
+
+Manually constructed test cases for [GemTalk/Rowan project](https://github.com/GemTalk/Rowan).
 
 ## Summary of Crooked Specs
 ### [spec_0001](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0001)
