@@ -16,4 +16,10 @@ Test case for GemTalk/Rowan#816.
 
 Generated spec_0002.gs ignoring RowanSample9-Extension1 package (which duplicates method in RowanSampl9-Extensions).
 
-Then using issue_816.solo script, load spec_0002.gs and then attempt to adopt the RowanSample9 project which reproduces GemTalk/Rowan#816
+Then using issue_816.solo script, load spec_0002.gs and then attempt to adopt the RowanSample9 project which reproduces GemTalk/Rowan#816.
+
+### [spec_0003](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0003)
+Test case for GemTalk/Rowan#820.
+
+When generating packages from the extensions.gs, the class and method categories should be automatically adjusted to fit the package convention RowanHybrid, Monticello or Rowan.
+
