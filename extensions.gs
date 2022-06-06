@@ -1,4 +1,4 @@
-set packagename: 'RowanCrooked9-Core'
+set package: 'RowanCrooked9-Core'
 doit
 (RowanSample9Class1
 	subclass: 'RowanSample9Class2'
