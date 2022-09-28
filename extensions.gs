@@ -40,6 +40,6 @@ test7  self assert: RowanSample9V3Class1 new foo = 'foo'
 %
 
 category: 'tests'
-method: RowanSampleV39TestCase
+method: RowanSample9V3TestCase
 test8  self assert: RowanSample9V3Class2 new foo = 'foo'
 %
