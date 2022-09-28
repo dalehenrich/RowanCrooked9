@@ -1,6 +1,6 @@
 set package: RowanCrooked9-Core
 doit
-(RowanSample9Class1
+(RowanSample9V3Class1
 	subclass: 'RowanSample9Class2'
 	instVarNames: #(  )
 	classVars: #(  )
@@ -20,26 +20,26 @@ foo ^'foo'
 %
 
 category: 'accessing'
-classmethod: RowanSample9ByteClass1
+classmethod: RowanSample9V3ByteClass1
 foo ^'foo'
 %
 
 category: 'accessing'
-method: RowanSample9Class1
+method: RowanSample9V3Class1
 foo ^'foo'
 %
 
 category: 'tests'
-method: RowanSample9TestCase
-test6  self assert: RowanSample9ByteClass1 foo equals: 'foo'
+method: RowanSample9V3TestCase
+test6  self assert: RowanSample9V3ByteClass1 foo equals: 'foo'
 %
 
 category: 'tests'
-method: RowanSample9TestCase
-test7  self assert: RowanSample9Class1 new foo = 'foo'
+method: RowanSample9V3TestCase
+test7  self assert: RowanSample9V3Class1 new foo = 'foo'
 %
 
 category: 'tests'
-method: RowanSample9TestCase
-test8  self assert: RowanSample9Class2 new foo = 'foo'
+method: RowanSampleV39TestCase
+test8  self assert: RowanSample9V3Class2 new foo = 'foo'
 %
