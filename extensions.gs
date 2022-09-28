@@ -41,5 +41,5 @@ test7  self assert: RowanSample9V3Class1 new foo = 'foo'
 
 category: 'tests'
 method: RowanSample9V3TestCase
-test8  self assert: RowanSample9V3Class2 new foo = 'foo'
+test8  self assert: RowanSample9Class2 new foo = 'foo'
 %
