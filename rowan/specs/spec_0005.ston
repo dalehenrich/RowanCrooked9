@@ -1,0 +1,20 @@
+RwLoadSpecificationV2 {
+	#specName : 'spec_0005',
+	#projectName : 'RowanSample9V3',
+	#gitUrl : 'git@github.com:dalehenrich/RowanCrooked9.git',
+	#revision : 'spec_0005',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Start with RowanSample9V3:spec_0079; and manually edit to introduce duplicate method definition.'
+}
