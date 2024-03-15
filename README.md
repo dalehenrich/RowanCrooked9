@@ -19,18 +19,21 @@ Generated spec_0002.gs ignoring RowanSample9-Extension1 package (which duplicate
 Then using issue_816.solo script, load spec_0002.gs and then attempt to adopt the RowanSample9 project which reproduces GemTalk/Rowan#816.
 
 ### [spec_0003](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0003)
-Test case for GemTalk/Rowan#820.
+Test case for GemTalk/Rowan#820. Part 1.
 
-### [spec_0004](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0004)
+### [spec_0003](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0004)
+Test case for GemTalk/Rowan#820.Part 2.
+
+### [spec_0004](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0005)
 Test case for GemTalk/Rowan#896. Duplicate method definition error in a filetree repo
 
-### [spec_0005](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0005)
+### [spec_0005](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0006)
 Test case for GemTalk/Rowan#896. Duplicate class definition error in a filetree repo
 
-### [spec_0006](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0006)
+### [spec_0006](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0007)
 Test case for GemTalk/Rowan#896. Duplicate method definition error in a tonel repo
 
-### [spec_0007](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0007)
+### [spec_0007](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0008)
 Test case for GemTalk/Rowan#896. Duplicate class definition error in a tonel repo
 
 When generating packages from the extensions.gs, the class and method categories should be automatically adjusted to fit the package convention RowanHybrid, Monticello or Rowan.
