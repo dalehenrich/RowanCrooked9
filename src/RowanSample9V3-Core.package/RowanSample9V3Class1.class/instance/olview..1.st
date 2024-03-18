@@ -1,3 +1,3 @@
 ol
 olview
-	"duplicate method definition"
+	"duplicated method definition"
