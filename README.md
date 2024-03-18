@@ -1,4 +1,4 @@
-# RowanCrooked9 - spec_0003
+# RowanCrooked9 - spec_0004
 Test case for GemTalk/Rowan#820.
 
 The file extensions.gs contains a new class (RowanSample9Class2) and extension methods for the classes found in [RowanSample9:spec_0082](https://github.com/dalehenrich/RowanSample9/tree/spec_0082).
