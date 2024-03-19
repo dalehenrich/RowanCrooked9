@@ -1,6 +1,6 @@
 RwLoadSpecificationV2 {
 	#specName : 'spec_0006',
-	#projectName : 'RowanSample9V3',
+	#projectName : 'RowanCrooked9',
 	#gitUrl : 'git@github.com:dalehenrich/RowanCrooked9.git',
 	#revision : 'spec_0006',
 	#projectSpecFile : 'rowan/project.ston',
