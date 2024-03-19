@@ -1,4 +1,4 @@
 { 
-	#format : 'filetree',
+	#format : 'tonel',
 	#convention : 'RowanHybrid'
 }
