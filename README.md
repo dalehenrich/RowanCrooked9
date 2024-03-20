@@ -31,6 +31,9 @@ Test case for GemTalk/Rowan#896. Duplicate class definition error in a filetree 
 Test case for GemTalk/Rowan#896. Duplicate method definition error in a tonel repo
 
 ### [spec_0007](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0007)
+Test case for GemTalk/Rowan#896. Duplicate class definition error in a filetree repo
+
+### [spec_0008](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0008)
 Test case for GemTalk/Rowan#896. Duplicate class definition error in a tonel repo
 
 When generating packages from the extensions.gs, the class and method categories should be automatically adjusted to fit the package convention RowanHybrid, Monticello or Rowan.
