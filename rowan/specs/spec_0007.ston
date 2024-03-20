@@ -1,8 +1,8 @@
 RwLoadSpecificationV2 {
-	#specName : 'spec_0005',
+	#specName : 'spec_0007',
 	#projectName : 'RowanCrooked9',
 	#gitUrl : 'git@github.com:dalehenrich/RowanCrooked9.git',
-	#revision : 'spec_0005',
+	#revision : 'spec_0007',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -16,5 +16,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with RowanSample9V3:spec_0079; and manually edit to introduce duplicate method definition.'
+	#comment : 'Start with spec_0005 and add a new package and duplicate class definition.'
 }
