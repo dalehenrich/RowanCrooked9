@@ -1,4 +1,4 @@
-# RowanCrooked9 - spec_0006
+# RowanCrooked9 - spec_0008
 Test case for GemTalk/Rowan#896.
 
-Copy of RowanSamp9V3:spec_0001 manually editted to introduce duplicate method definition in a tonel repository.
+Copy of RowanCrooked9:spec_0006 manually editted to introduce duplicate class definition in a tonel repository.
