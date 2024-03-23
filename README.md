@@ -1,4 +1,4 @@
-# RowanCrooked9 - spec_0005
-Test case for GemTalk/Rowan#896.
+# RowanCrooked9 - spec_0011
+Test case for GemTalk/Rowan#920.
 
-Copy of RowanSamp9V3:spec_0079 manually editted to introduce duplicate method definition in a filetree repository using "case insensitive" file names.
+Start with RowanCrooked9:spec_0005; and manually edit to create case insensitive filename methods as written by GsDevKit filetree1
