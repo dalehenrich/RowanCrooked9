@@ -1,3 +1,3 @@
 ol
-olview
+olView
 	"different selector case"
