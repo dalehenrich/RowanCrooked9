@@ -21,6 +21,8 @@ Then using issue_816.solo script, load spec_0002.gs and then attempt to adopt th
 ### [spec_0003](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0003)
 Test case for GemTalk/Rowan#820. Part 1.
 
+When generating packages from the extensions.gs, the class and method categories should be automatically adjusted to fit the package convention RowanHybrid, Monticello or Rowan.
+
 ### [spec_0004](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0004)
 Test case for GemTalk/Rowan#820.Part 2.
 
@@ -44,6 +46,6 @@ Test case for GemTalk/Rowan#896. Invalid class category error in a filetree repo
 ### [spec_0010](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0010)
 Test case for GemTalk/Rowan#896. Start with spec_0007 and remove the extra package and add a duplicate class definition directory for filetree.
 
-
-When generating packages from the extensions.gs, the class and method categories should be automatically adjusted to fit the package convention RowanHybrid, Monticello or Rowan.
+### [spec_0011](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0011)
+Test case for GemTalk/Rowan#920. Start with spec_0005 and manually edit to create case insensitive filename methods as written by GsDevKit filetree.
 
