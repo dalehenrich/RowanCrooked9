@@ -1,0 +1,9 @@
+RwLoadComponent {
+	#name : 'b',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V3-Core1'
+	],
+	#comment : 'Component used for loading second package - producing second form of the error see (RwRowanCrooked9Test>>testIssue896_3b'
+}

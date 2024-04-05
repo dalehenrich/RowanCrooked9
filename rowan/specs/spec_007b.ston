@@ -1,11 +1,11 @@
 RwLoadSpecificationV2 {
-	#specName : 'spec_0007',
+	#specName : 'spec_0007b',
 	#projectName : 'RowanCrooked9',
 	#gitUrl : 'git@github.com:dalehenrich/RowanCrooked9.git',
 	#revision : 'spec_0007',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
-		'Core'
+		'b'
 	],
 	#customConditionalAttributes : [
 	],
@@ -16,5 +16,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Produce first form of the duplicate class error see (RwRowanCrooked9Test>>testIssue896_3a).'
+	#comment : 'Produces the second form of the duplicate class error see (RwRowanCrooked9Test>>testIssue896_3b).'
 }

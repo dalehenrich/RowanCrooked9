@@ -1,10 +1,11 @@
 RwLoadComponent {
 	#name : 'Core',
 	#projectNames : [ ],
-	#componentNames : [ ],
+	#componentNames : [
+		'a',
+		'b'
+ ],
 	#packageNames : [
-		'RowanSample9V3-Core',
-		'RowanSample9V3-Core1'
 	],
-	#comment : 'Primary component used for loading the core classes.'
+	#comment : 'Component used for loading both packages - producing first form of the error see (RwRowanCrooked9Test>>testIssue896_3a).'
 }
