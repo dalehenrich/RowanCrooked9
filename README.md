@@ -52,3 +52,6 @@ Test case for GemTalk/Rowan#920. Start with spec_0005 and manually edit to creat
 ### [spec_0012](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0012)
 Test case for GemTalk/Rowan#920. Copy over enough of the filetree structure in git@github.com:glassdb/glass.git [d9a8405c5] to capture The repository/Regex-Core.package/RxsRange.class/properties.json file which has a commentStamp ... the commentStamp needs to be preserved
 
+### [spec_0013](https://github.com/dalehenrich/RowanCrooked9/tree/spec_0013)
+Test case for GemTalk/Rowan#783. Started with a copy of RowanSample9V3 spec_0001 and manually added Traits.
+
