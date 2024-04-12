@@ -5,7 +5,7 @@ Class {
 	#name : 'RowanSample9V3Class1',
 	#superclass : 'Object',
 	#traits: 'RowanSample9V3Trait',
-	#classTraits: 'RowanSample9V3Trait classTrait'
+	#classTraits: 'RowanSample9V3Trait classTrait',
 	#instVars : [
 		'ivar1'
 	],
