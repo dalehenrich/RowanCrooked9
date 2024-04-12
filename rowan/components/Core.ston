@@ -1,28 +1,11 @@
-RwSimpleProjectLoadComponentV2 {
+RwLoadComponent {
 	#name : 'Core',
-	#condition : 'common',
 	#projectNames : [ ],
 	#componentNames : [
 		'tests/Tests'
 	],
 	#packageNames : [
-		'RowanSample9-Core',
-		'RowanSample9-Extensions',
-		'RowanSample9-Extensions1'
+		'RowanSample9V3-Core'
 	],
-	#conditionalPackageMapSpecs : {
-		'gemstone' : {
-			'allusers' : {
-				#packageNameToPlatformPropertiesMap : {
-					'RowanSample9-Core' : {
-						'symbolDictName' : 'RowanSample9_1'
-					},
-					'RowanSample9-Extensions1' : {
-						'symbolDictName' : 'RowanSample9_1'
-					}
-				}
-			}
-		}
-	},
 	#comment : 'Primary component used for loading the core classes.'
 }

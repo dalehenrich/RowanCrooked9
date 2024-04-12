@@ -1,2 +1,4 @@
-# RowanCrooked9 - spec_0001
-Manually modified package structure in [RowanSample9:spec_0014](https://github.com/dalehenrich/RowanSample9/tree/spec_0014) to reproduce GemTalk/Rowan#828
+# RowanCrooked9 - spec_0013
+Started with a copy of RowanSample9V3 and manually add Traits. See GemTalk/Rowan#783.
+
+Initial use case is to read/write Traits definitions in tonel format and export as .gs files.
