@@ -1,0 +1,21 @@
+RwLoadSpecificationV2 {
+	#specName : 'spec_0014',
+	#projectName : 'RowanCrooked9',
+	#gitUrl : 'git@github.com:dalehenrich/RowanCrooked9.git',
+	#revision : 'spec_0014_b',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Standard load spec for the spec_0014 series of specs'
+}
