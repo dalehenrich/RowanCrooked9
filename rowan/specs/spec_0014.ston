@@ -1,8 +1,8 @@
 RwLoadSpecificationV2 {
-	#specName : 'spec_0013',
+	#specName : 'spec_0014',
 	#projectName : 'RowanCrooked9',
 	#gitUrl : 'git@github.com:dalehenrich/RowanCrooked9.git',
-	#revision : 'spec_0013',
+	#revision : 'spec_0014_c',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -17,5 +17,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Started with a copy of RowanSample9V3:spec_0001 and manually add Traits'
+	#comment : 'Standard load spec for the spec_0014 series of specs'
 }
