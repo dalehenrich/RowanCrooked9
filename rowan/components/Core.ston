@@ -6,7 +6,8 @@ RwLoadComponent {
 	],
 	#packageNames : [
 		'RowanSample9V3-Core',
-		'RowanSample9V3-Extension'
+		'RowanSample9V3-Extension',
+		'Object-Extension'
 	],
 	#comment : 'Primary component used for loading the core classes.'
 }
