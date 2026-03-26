@@ -12,7 +12,7 @@ RowanSample9V3Trait classSide >> classMethod [
 ]
 
 { #category : 'accessing' }
-RowanSample9V3Trait>> instanceMethod [
+Object >> instanceMethod [
   ^ ivar1
 ]
 
