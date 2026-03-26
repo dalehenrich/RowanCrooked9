@@ -17,5 +17,5 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'spec_0014'
+	#comment : 'Standard load spec for the spec_0014 series of specs'
 }
