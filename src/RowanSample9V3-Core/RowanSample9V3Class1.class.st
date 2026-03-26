@@ -17,9 +17,5 @@ RowanSample9V3Class1 >> foo [ ^1
 ]
 
 { #category : 'accessing' }
-Object >> foo [ ^1
-]
-
-{ #category : 'accessing' }
 RowanSample9V3Class1 class >> bar [ ^1
 ]
