@@ -1,5 +1,5 @@
 Extension { #name : 'Object' }
 
-{ #category : 'accessing' }
+{ #category : '*object-extension' }
 Object class >> buz [ ^1
 ]
